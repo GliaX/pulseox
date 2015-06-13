@@ -35,7 +35,7 @@ class Clamp < CrystalScad::Printed
 
 	def top_piece
 		res = cube(@x,y,@top_z)		
-		res -= cylinder(d:11,h:70).rotate(x:-90).translate(x:12,y:-1,z:11)		
+		res -= cylinder(d:14,h:70).scale(x:1.5,y:1).rotate(x:-90).translate(x:14,y:-1,z:12)		
 	end
 
 	def right_triangle(b,c)
