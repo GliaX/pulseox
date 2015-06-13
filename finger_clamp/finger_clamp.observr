@@ -1,0 +1,9 @@
+
+system("./finger_clamp.rb")
+watch( 'finger_clamp.rb' )  {|md|
+   system("./finger_clamp.rb")
+}
+
+watch( 'lib/*/(.*).rb' )  {|md|
+   system("./finger_clamp.rb")
+}
