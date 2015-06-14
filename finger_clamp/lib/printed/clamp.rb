@@ -4,8 +4,8 @@ class Clamp < CrystalScad::Printed
 		@y = 25
 		@z = 2.5
 		@top_z = 10
-		@led_pcb = LedPcb.new.rotate(y:-35).translate(x:15,y:2,z:@z)
-		@sensor_pcb = SensorPcb.new.rotate(z:90).rotate(y:35).translate(x:10,y:3.5,z:@z)
+		@led_pcb = LedPcb.new.rotate(y:-35).translate(x:15,y:2,z:@z-1)
+		@sensor_pcb = SensorPcb.new.rotate(z:90).rotate(y:35).translate(x:10,y:3.5,z:@z-1)
 		@finger = Finger.new.rotate(x:-90).translate(x:12,y:-25,z:@z+8)
 	end
 	
@@ -35,7 +35,7 @@ class Clamp < CrystalScad::Printed
 
 	def top_piece
 		res = cube(@x,y,@top_z)		
-		res -= cylinder(d:14,h:70).scale(x:1.5,y:1).rotate(x:-90).translate(x:14,y:-1,z:12)		
+		res -= cylinder(d:14,h:70).scale(x:1.5,y:1).rotate(x:-90).translate(x:14,y:-1,z:14)		
 	end
 
 	def right_triangle(b,c)
