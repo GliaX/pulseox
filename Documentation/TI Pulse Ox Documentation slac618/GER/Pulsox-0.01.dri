@@ -1,0 +1,45 @@
+Drill Station Info File: C:/Program Files/EAGLE-4.16r2/projects/Pulsox proj/Pulsox-0.01.dri
+
+ Date              :  3/18/2008 05:32:22p
+ Drills            : generated
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/10000 Inch
+
+Drills used:
+
+ Code  Size       used
+
+ T01   0.0160inch   121
+ T02   0.0236inch     7
+ T03   0.0320inch     2
+ T04   0.0350inch    26
+ T05   0.0360inch    24
+ T06   0.0394inch     4
+ T07   0.0400inch    38
+ T08   0.0433inch     2
+ T09   0.0535inch     4
+ T10   0.0906inch     2
+ T11   0.1100inch     3
+ T12   0.1300inch     2
+
+Total number of drills: 235
+
+Plotfiles:
+
+ C:/Program Files/EAGLE-4.16r2/projects/Pulsox proj/Pulsox-0.01.drd

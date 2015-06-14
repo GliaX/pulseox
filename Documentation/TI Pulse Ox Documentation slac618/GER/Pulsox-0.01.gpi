@@ -1,0 +1,54 @@
+Photoplotter Info File: C:/Program Files/EAGLE-4.16r2/projects/Pulsox proj/Pulsox-0.01.gpi
+
+ Date              :  3/18/2008 05:32:52p
+ Plotfile          : C:/Program Files/EAGLE-4.16r2/projects/Pulsox proj/Pulsox-0.01.smb
+ Apertures         : generated: 
+ Device            : Gerber photoplotter with RS-274-X aperture generation
+
+Parameter settings:
+
+ Emulate Apertures : no
+ Emulate Thermal   : no
+ Emulate Annulus   : no
+ Tolerance Draw  + :  0.00 %
+ Tolerance Draw  - :  0.00 %
+ Tolerance Flash + :  0.00 %
+ Tolerance Flash - :  0.00 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+
+Plotfile Info:
+
+ Coordinate Format : 2.4
+ Coordinate Units  : Inch
+ Data Mode         : Absolute
+ Zero Suppression  : None
+ End Of Block      : *
+
+Apertures used:
+
+ Code     Shape     Size                  used
+
+ D10      round     0.1260inch               3
+ D11      oval      0.1280inch x 0.0720inch     6
+ D12      round     0.0680inch               2
+ D13      round     0.1466inch               2
+ D14      round     0.0754inch               4
+ D15      round     0.0695inch               4
+ D16      round     0.0710inch              26
+ D17      octagon   0.0720inch              14
+ D18      oval      0.1360inch x 0.0760inch     7
+ D19      oval      0.0720inch x 0.1280inch     4
+ D20      oval      0.0760inch x 0.1360inch     4
+ D21      octagon   0.0760inch              26
+ D22      round     0.2160inch               2
+ D23      round     0.0920inch               2
+ D24      square    0.0760inch               1
+ D25      square    0.0596inch               6
+ D26      round     0.0480inch             121
+ D27      round     0.0556inch               1
+
