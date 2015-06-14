@@ -1880,7 +1880,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.725" y="39.15" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="U$3" library="pulseoxparts" package="WE-TPC" value="WE-TPC" x="14.35" y="39.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.85" y="41.7" size="0.6096" layer="21"/>
+<attribute name="NAME" x="16.8" y="39.35" size="0.6096" layer="21" rot="R90"/>
 </element>
 <element name="SV1" library="con-lstb" package="MA03-1" value="" x="5" y="10" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="5" y="10" size="0.8128" layer="27" rot="R90" display="off"/>
