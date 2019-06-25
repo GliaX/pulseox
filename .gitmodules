@@ -1,0 +1,12 @@
+[submodule "device_testing"]
+	path = device_testing
+	url = git@github.com:IRNAS/pulseox-testing.git
+[submodule "hardware"]
+	path = hardware
+	url = git@github.com:IRNAS/pulseox-hardware.git
+[submodule "firmware"]
+	path = firmware
+	url = git@github.com:IRNAS/pulseox-firmware.git
+[submodule "finger_clamp"]
+	path = finger_clamp
+	url = git@github.com:IRNAS/pulseox-finger-clamp.git
