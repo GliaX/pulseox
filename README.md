@@ -9,3 +9,9 @@ Currently, **THE PULSE OXIMETER IS NOT USABLE AND SHOULD NOT BE USED IN A CLINIC
 Status
 ======
 The device is undergoing clinical calibration as of 2019 June 25.
+
+Licensing notes
+===============
+As per our understanding, hardware is not covered by copyright. However, we present
+our work under the TAPR OHL license insofar as it applies. All software is covered by the GNU aGPL V3
+
