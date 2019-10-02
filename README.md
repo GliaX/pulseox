@@ -8,7 +8,16 @@ Currently, **THE PULSE OXIMETER IS NOT USABLE AND SHOULD NOT BE USED IN A CLINIC
 
 Status
 ======
-The device is undergoing clinical calibration as of 2019 June 25.
+The device is undergoing clinical calibration as of 2019 OCTOBER 2.
+
+Installation
+============
+Clone the repository and then do the following to initialize the submodules:
+
+```
+git submodule init
+git submodule update
+```
 
 Licensing notes
 ===============
